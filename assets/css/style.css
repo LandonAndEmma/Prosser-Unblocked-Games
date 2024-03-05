@@ -176,6 +176,8 @@ a:hover {
     
 iframe{
     padding: 1rem;
+    width: fit-content;
+    height: fit-content;
 }    
 /* Responsive layout */
 @media screen and (max-width: 600px) {
