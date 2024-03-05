@@ -105,7 +105,7 @@ a:hover {
     margin-left: 2px;
     margin-right: 2px;
 }
-.project-entry {
+.game-entry {
     border-radius: 10px;
     background-color: var(--main-gray);
     padding: 0.5em 1em;
@@ -116,7 +116,7 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
-.project-thumbnail {
+.game-thumbnail {
     width: 64px;
     height: 64px;
     border-radius: 10px;
@@ -124,24 +124,24 @@ a:hover {
     margin-right: 16px;
     transition: transform 0.5s;
 }
-.project-thumbnail:hover {
+.game-thumbnail:hover {
     transform: scale(1.1);
 }
-.project-head {
+.game-head {
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
-.project-links {
+.game-links {
     display: flex;
     gap: 10px;
 }
-.project-footer {
+.game-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.project-tags {
+.game-tags {
     display: flex;
     flex-direction: row;
     justify-content: end;
