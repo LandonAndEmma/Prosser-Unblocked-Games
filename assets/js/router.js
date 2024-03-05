@@ -39,14 +39,12 @@ function initRoutes() {
     // Define templates here
     template('home', () => view("pages/home.htm"));
     template('games', () => view("pages/games.htm", "Games"));
-    template('about', () => view("pages/about.htm", "About Me"));
     template('contact', () => view("pages/contact.htm", "Contact"));
     template('games-eaglercraft', () => view("pages/games/eaglercraft.htm", "Eaglercraft"));
     template('games-super-mario-sixty-four', () => view("pages/games/super-mario-sixty-four.htm", "Super Mario 64"));
     // Define routes here
     route('/', 'home');
     route('/games', 'games');
-    route('/about', 'about');
     route('/contact', 'contact');
     route('/games/eaglercraft', 'games-eaglercraft');
     route('/games/super-mario-sixty-four', 'games-super-mario-sixty-four');
