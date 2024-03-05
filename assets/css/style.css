@@ -173,11 +173,6 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-    
-iframe{
-    width: fit-content;
-    height: fit-content;
-}    
 /* Responsive layout */
 @media screen and (max-width: 600px) {
     #top-bar {
