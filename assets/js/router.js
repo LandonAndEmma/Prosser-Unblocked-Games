@@ -42,7 +42,7 @@ function initRoutes() {
     template('about', () => view("pages/about.htm", "About Me"));
     template('contact', () => view("pages/contact.htm", "Contact"));
     template('games-eaglercraft', () => view("pages/games/eaglercraft.htm", "Eaglercraft"));
-    template('games-super-mario-sixty-four', () => view("pages/games/sm64.htm", "Super Mario 64"));
+    template('games-super-mario-sixty-four', () => view("pages/games/super-mario-sixty-four.htm", "Super Mario 64"));
     // Define routes here
     route('/', 'home');
     route('/games', 'games');
