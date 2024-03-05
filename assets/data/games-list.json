@@ -9,7 +9,7 @@
     {
         "name": "Super Mario 64",
         "description": "Super Mario 64 is a groundbreaking platform game developed and published by Nintendo for the Nintendo 64 console.",
-        "url": "#/games/apicula-gui",
+        "url": "#/games/super-mario-sixty-four",
         "icon": "assets/img/super-mario-sixty-four/icon.png",
         "tags": ["Mario", "N64", "Decompilation", "Port"]
     }
