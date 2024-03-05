@@ -22,13 +22,13 @@ function loadGameList(containerId, count) {
   if (!count)
     count = 1000;
   var mainContent = document.getElementById(containerId);
-  var fetchTemplate = fetch("templates/project-entry.htm").then(function (templateFile) { return templateFile.text(); });
-  var fetchProjectJson = fetch("assets/data/games-list.json?v1.2").then(function (response) { return response.json(); });
-  Promise.all([fetchTemplate, fetchProjectJson]).then(function (results) {
+  var fetchTemplate = fetch("templates/game-entry.htm").then(function (templateFile) { return templateFile.text(); });
+  var fetchGameJson = fetch("assets/data/games-list.json?v1.2").then(function (response) { return response.json(); });
+  Promise.all([fetchTemplate, fetchGameJson]).then(function (results) {
     var template = results[0];
-    var projects = results[1];
-    for (var i = 0; i < projects.length && i < count; i++) {
-      var item = projects[i];
+    var games = results[1];
+    for (var i = 0; i < games.length && i < count; i++) {
+      var item = games[i];
       var entry = template;
       var tagsHtml = "";
       var linksHtml = "";
