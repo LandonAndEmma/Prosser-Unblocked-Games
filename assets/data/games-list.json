@@ -1,1 +1,16 @@
-
+[
+    {
+        "name": "Eaglercraft",
+        "description": "Eaglercraft, an AOT compiled voxel game inspired from Minecraft designed to run on Javascript. It uses TeaVM and LAX1DUDE's OpenGL emulator to run a Java virtual machine fully compatible with browsers.",
+        "url": "#/games/eaglercraft",
+        "icon": "assets/img/eaglercraft/icon.png",
+        "tags": ["Minecraft", "Decompilation", "Port"]
+    },
+    {
+        "name": "Super Mario 64",
+        "description": "Super Mario 64 is a groundbreaking platform game developed and published by Nintendo for the Nintendo 64 console.",
+        "url": "#/games/apicula-gui",
+        "icon": "assets/img/super-mario-sixty-four/icon.png",
+        "tags": ["Mario", "N64", "Decompilation", "Port"]
+    }
+]
