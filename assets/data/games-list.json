@@ -19,5 +19,12 @@
         "url": "#/games/mario-kart-ds",
         "icon": "assets/img/mario-kart-ds/icon.png",
         "tags": ["Mario Kart", "Mario", "DS", "Emulator"]
+    },
+    {
+        "name": "Mario & Luigi - Bowser's Inside Story",
+        "description": "Mario Kart DS is a racing video game developed and published by Nintendo for the Nintendo DS handheld game console.",
+        "url": "#/games/bowsers-inside-story",
+        "icon": "assets/img/bowsers-inside-story/icon.png",
+        "tags": ["Mario & Luigi", "Bowser", "DS", "Emulator"]
     }
 ]
