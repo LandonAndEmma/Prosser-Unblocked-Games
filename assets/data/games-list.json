@@ -12,5 +12,12 @@
         "url": "#/games/super-mario-sixty-four",
         "icon": "assets/img/super-mario-sixty-four/icon.png",
         "tags": ["Mario", "N64", "Decompilation", "Port"]
+    },
+    {
+        "name": "Mario Kart DS",
+        "description": "Mario Kart DS is a racing video game developed and published by Nintendo for the Nintendo DS handheld game console.",
+        "url": "#/games/mario-kart-ds",
+        "icon": "assets/img/mario-kart-ds/icon.png",
+        "tags": ["Mario Kart", "Mario", "DS", "Emulator"]
     }
 ]
