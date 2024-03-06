@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Desmond - Firmware Demo</title>
+    <title>Desmond</title>
 </head>
 
 <body style="background: black;">
@@ -16,7 +16,7 @@
       
         window.onload = function() {
             setTimeout(function() {
-                document.querySelector("desmond-player").loadURL("../firmware.nds")
+                document.querySelector("desmond-player").loadURL("files/mkds/rom.nds")
                 document.querySelector("desmond-player").shadowRoot.querySelector("#top").style = "position: fixed;transform: translate(-50%, -50%);width: 40%;left: 50%;top: 30%;height: 40%;";
 
                 document.querySelector("desmond-player").shadowRoot.querySelector("#bottom").style = "position: fixed;transform: translate(-50%, -50%);width: 40%;left: 50%;top: 70%;height: 40%;";
