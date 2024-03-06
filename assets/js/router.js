@@ -42,12 +42,14 @@ function initRoutes() {
     template('contact', () => view("pages/contact.htm", "Contact"));
     template('games-eaglercraft', () => view("pages/games/eaglercraft.htm", "Eaglercraft"));
     template('games-super-mario-sixty-four', () => view("pages/games/super-mario-sixty-four.htm", "Super Mario 64"));
+    template('games-mario-kart-ds', () => view("pages/games/mkds.htm", "Mario Kart DS"));
     // Define routes here
     route('/', 'home');
     route('/games', 'games');
     route('/contact', 'contact');
     route('/games/eaglercraft', 'games-eaglercraft');
     route('/games/super-mario-sixty-four', 'games-super-mario-sixty-four');
+    route('/games/mario-kart-ds', 'games-mario-kart-ds');
 }
 initRoutes();
 // Add event listeners
