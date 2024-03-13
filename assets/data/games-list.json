@@ -21,10 +21,10 @@
         "tags": ["Mario Kart", "Mario", "DS", "Emulator"]
     },
     {
-        "name": "Mario & Luigi - Bowser's Inside Story",
-        "description": "Mario & Luigi: Bowser's Inside Story is a role-playing game developed by AlphaDream and published by Nintendo for the Nintendo DS handheld game console in 2009. It is the third game in the Mario & Luigi role-playing series.",
-        "url": "#/games/bowsers-inside-story",
-        "icon": "assets/img/bowsers-inside-story/icon.png",
-        "tags": ["Mario & Luigi", "Bowser", "DS", "Emulator"]
+        "name": "New Super Mario Bros",
+        "description": "New Super Mario Bros for the Nintendo DS is a beloved side-scrolling platformer game that brought the classic Mario gameplay into the handheld realm. Released in 2006, it offered players a mix of nostalgia and new features with updated graphics, new power-ups, and exciting level designs.",
+        "url": "#/games/new-super-mario-bros",
+        "icon": "assets/img/new-super-mario-bros/icon.png",
+        "tags": ["Mario Bros", "Mario", "DS", "Emulator"]
     }
 ]
