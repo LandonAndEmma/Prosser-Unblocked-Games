@@ -105,7 +105,7 @@ a:hover {
     margin-left: 2px;
     margin-right: 2px;
 }
-.game-entry {
+.project-entry {
     border-radius: 10px;
     background-color: var(--main-gray);
     padding: 0.5em 1em;
@@ -116,7 +116,7 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
-.game-thumbnail {
+.project-thumbnail {
     width: 64px;
     height: 64px;
     border-radius: 10px;
@@ -124,24 +124,24 @@ a:hover {
     margin-right: 16px;
     transition: transform 0.5s;
 }
-.game-thumbnail:hover {
+.project-thumbnail:hover {
     transform: scale(1.1);
 }
-.game-head {
+.project-head {
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
-.game-links {
+.project-links {
     display: flex;
     gap: 10px;
 }
-.game-footer {
+.project-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.game-tags {
+.project-tags {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -173,6 +173,10 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+    
+iframe{
+    padding: 1rem;
+}    
 /* Responsive layout */
 @media screen and (max-width: 600px) {
     #top-bar {
