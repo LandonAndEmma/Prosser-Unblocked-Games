@@ -47,6 +47,7 @@ a:hover {
     margin: 0.1em 0;
     display: flex;
     justify-content: flex-start;
+    font-size: 0.7em;
 }
 #top-bar-menu {
     flex: 2.5;
