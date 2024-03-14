@@ -1,9 +1,10 @@
 :root {
-    --accent-color: #008afb;
-    --main-white: #f5f5f5;
-    --main-gray: #373737;
-    --main-light-gray: #969696;
-    --main-background: #282828;
+    --accent-color: #ff5d00;
+    --main-title: #ff4909;
+    --main-white: #ffffff;
+    --main-gray: #1c2a5a;
+    --main-light-gray: #8a2906;
+    --main-background: #23458d;
 }
 html, body {
     margin: 0;
@@ -48,6 +49,7 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     font-size: 0.7em;
+    color: var(--main-title);
 }
 #top-bar-menu {
     flex: 2.5;
