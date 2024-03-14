@@ -8,14 +8,14 @@
     },
     {
         "name": "Super Mario 64",
-        "description": "Super Mario 64 is a groundbreaking platform game developed and published by Nintendo for the Nintendo 64 console.",
+        "description": "Super Mario 64 is a classic 3D platformer game where players control Mario as he navigates through various levels to collect Power Stars and rescue Princess Peach from Bowser's clutches. The game revolutionized the gaming industry with its innovative gameplay mechanics and open-world design.",
         "url": "#/games/super-mario-sixty-four",
         "icon": "assets/img/super-mario-sixty-four/icon.png",
         "tags": ["Mario", "N64", "Decompilation", "Port"]
     },
     {
         "name": "Mario Kart DS",
-        "description": "Mario Kart DS is a racing video game developed and published by Nintendo for the Nintendo DS handheld game console.",
+        "description": "Mario Kart DS is a racing game featuring iconic Nintendo characters competing in kart races on various tracks. Players can use power-ups and weapons to gain an advantage over their opponents in this fast-paced and entertaining game.",
         "url": "#/games/mario-kart-ds",
         "icon": "assets/img/mario-kart-ds/icon.png",
         "tags": ["Mario Kart", "Mario", "DS", "Emulator"]
